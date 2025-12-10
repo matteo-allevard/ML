@@ -1,0 +1,30 @@
+{
+  "date": "2025-12-09T18:36:03.422243",
+  "hardware": {
+    "cpu": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "cores": "8P/12T",
+    "ram_gb": 15,
+    "python_version": "3.13.3",
+    "tensorflow_version": "2.20.0"
+  },
+  "model": {
+    "architecture": "Flatten(784) → Dense(128) → Dense(64) → Dense(10)",
+    "total_params": 110154,
+    "batch_size": 128,
+    "epochs_trained": 10
+  },
+  "performance": {
+    "test_accuracy": 0.9765999913215637,
+    "test_loss": 0.0747641995549202,
+    "training_time": 13.330923795700073,
+    "best_val_accuracy": 0.9806666374206543,
+    "epoch_to_97": 3,
+    "time_to_97": 3.999277138710022,
+    "inference_speed": 13570.693819627371
+  },
+  "target_achievement": {
+    "target": 0.97,
+    "achieved": true,
+    "actual_percentage": 97.65999913215637
+  }
+}
